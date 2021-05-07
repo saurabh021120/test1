@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/***For body***/
+body {
+  margin: 0px;
+  font-family: "Times New Roman", Times, serif;
+  background-blend-mode: hard-light;
+  background-color: #e9ecef;
+}

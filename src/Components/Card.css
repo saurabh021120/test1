@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+
+.cardcss {
+  width: 18rem;
+  box-shadow: 5px 10px 8px #888888;
+  border-radius: 20px;
+}
+.cardcss img {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.cardcss p {
+  font-size: 15px;
+}
+
+.card-body h5 {
+  font-family: "Quicksand", sans-serif;
+}

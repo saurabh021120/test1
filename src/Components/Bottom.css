@@ -1,0 +1,96 @@
+.bottomcss {
+  display: grid;
+  grid-template-columns: 28% 30% 32%;
+  grid-column-gap: 40px;
+
+  margin-top: 20px;
+
+  background-color: #000428;
+  color: white;
+  font-size: 120%;
+  font-family: "Montserrat", sans-serif;
+}
+
+.bottomcss h3 {
+  margin-top: 5%;
+  position: relative;
+  font-size: 25px;
+  padding-left: 0px;
+  margin-bottom: 10px;
+}
+.logocss {
+  margin: auto;
+}
+.logocss h4,
+.logocss h5 {
+  text-align: center;
+  margin: 0 25%;
+}
+.imgbottomcss {
+  margin: 0 25%;
+  width: 50%;
+}
+
+.socialmedia h6 {
+  color: white;
+  font-size: 25px;
+  margin: 0px;
+  padding: 0;
+  margin-top: 5%;
+}
+
+.iconcss {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+
+.contactcss p {
+  margin-top: 0;
+}
+
+/* Rules for smaller devices */
+@media all and (max-device-width: 480px) {
+  .bottomcss {
+    display: block;
+    margin-top: 100px;
+    background-color: #000428;
+    color: white;
+  }
+  .imgbottomcss {
+    width: 40%;
+    height: 40%;
+    margin: 30px 30%;
+  }
+  .logocss h4,
+  .logocss h5 {
+    text-align: center;
+    margin: 0 25%;
+    font-size: 100%;
+  }
+  .socialmedia {
+    padding-top: 40px;
+    padding-left: 31px;
+  }
+  .socialmedia h3 {
+    color: white;
+    font-size: 150%;
+    margin: 0px;
+    padding-left: 20px;
+    margin-top: 5%;
+  }
+
+  .acss {
+    padding-left: 20px;
+    padding-top: 10px;
+  }
+
+  .contactcss p {
+    font-size: 100%;
+    padding: 0 0 0 50px;
+  }
+
+  .contactcss h3 {
+    padding: 0 0 0 50px;
+  }
+}

@@ -1,0 +1,130 @@
+.Event-section {
+  font-family: "Roboto Mono", monospace;
+}
+
+.Event-section h1 {
+  font-size: 4rem;
+  text-align: center;
+  color: #000428;
+}
+.event-card {
+  border-radius: 2rem;
+  width: 80%;
+  margin: auto;
+  margin-top: 70px;
+}
+.event-card-body {
+  border-radius: 2rem;
+  height: 20rem;
+  background-color: black;
+}
+.event-name {
+  padding: 4% 0 0 4%;
+}
+.event-card h2 {
+  padding: 16% 0 0 3%;
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.event-card-body p {
+  padding: 0 0 0 3%;
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+}
+.line {
+  width: 45%;
+  height: 2px;
+  content: " ";
+  background-color: white;
+  margin-left: 3%;
+  margin-top: 0;
+  position: relative;
+  bottom: 10px;
+}
+/* Adding images to the cards */
+.aimg_css {
+  background-image: url("Eventimg/webdev_u.jpg");
+  background-repeat: no-repeat;
+  background-size: 60% 100%;
+  background-position: 100%;
+}
+
+.bimg_css {
+  background-image: url("Eventimg/ai_u.jpg");
+  background-repeat: no-repeat;
+  background-size: 60% 100%;
+  background-position: 100%;
+}
+
+.cimg_css {
+  background-image: url("Eventimg/robotics_u.jpg");
+  background-repeat: no-repeat;
+  background-size: 50% 100%;
+  background-position: 100%;
+}
+
+.dimg_css {
+  background-image: url("Eventimg/cp.png");
+  background-repeat: no-repeat;
+  background-size: 40% 100%;
+  background-position: 100%;
+}
+
+.eimg_css {
+  background-image: url("Eventimg/agri_u.jpg");
+  background-repeat: no-repeat;
+  background-size: 60% 100%;
+  background-position: 100%;
+}
+
+.fimg_css {
+  background-image: url("Eventimg/object recognition_u.jpg");
+  background-repeat: no-repeat;
+  background-size: 55% 100%;
+  background-position: 100%;
+}
+
+.gimg_css {
+  background-image: url("Eventimg/sentimen_of_text_u.jpg");
+  background-repeat: no-repeat;
+  background-size: 50% 100%;
+  background-position: 100%;
+}
+
+.himg_css {
+  background-image: url("Eventimg/ipl_bot_u.jpg");
+  background-repeat: no-repeat;
+  background-size: 60% 100%;
+  background-position: 100%;
+}
+
+.iimg_css {
+  background-image: url("Eventimg/image_classification_u.jpg");
+  background-repeat: no-repeat;
+  background-size: 30% 100%;
+  background-position: 100%;
+}
+
+.Nodeco {
+  text-decoration: none;
+}
+
+.Nodeco:hover {
+  text-decoration: none;
+}
+
+@media all and (max-device-width: 480px) {
+  .event-card {
+    /* width: 70%; */
+    font-size: 80%;
+    width: 20rem;
+    height: 13rem;
+  }
+  .Event-section {
+    font-size: 120%;
+  }
+
+  .Event-section h1 {
+  }
+}
